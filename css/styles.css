@@ -77,5 +77,31 @@ ul {
   list-style: none;
 }
 
+strong {
+  font-weight: bold;
+}
 
+.movie-block {
+  border: 2px solid #ccc; 
+  padding: 10px;
+  text-align: center; 
+  margin: 10px; 
+  background-color: #f8f8f8;
+}
 
+.movie-block img {
+  max-width: 100%;
+  height: auto;
+}
+
+#character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character-item h3,
+.character-item p {
+  text-align: left;
+  margin: 5px 0;
+}
